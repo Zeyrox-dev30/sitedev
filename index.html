@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeyrox Dev — Studio Web & Mobile</title>
+        <meta name="description" content="Zeyrox Dev — Studio indépendant de développement d'applications Android et de sites web. Découvrez Temps de France, l'application complète pour réviser l'Histoire de France.">
+    <meta name="keywords" content="Zeyrox Dev, Temps de France, application Histoire de France, révision Brevet Bac, développeur web">
+    <meta name="google-site-verification" content="ojDDJwhuYLd0jwDTSAAZF9Mh1pn7QimyqgQBlfFL9R8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Arrière-plan interactif à particules -->
+    <canvas id="cyber-canvas"></canvas>
+
+
+    <!-- Barre de navigation futuriste en verre dépoli -->
+    <nav class="navbar">
+        <div class="logo">ZEYROX<span>.DEV</span></div>
+        <ul class="nav-links">
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#services">Savoir-faire</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Écran d'accueil (Hero Section) -->
+    <header class="hero">
+        <div class="glow-circle glow-1"></div>
+        <div class="glow-circle glow-2"></div>
+
+        <div class="hero-content">
+            <span class="cyber-badge">⚡ STUDIO DE DÉVELOPPEMENT INDÉPENDANT</span>
+                     <h1>Façonner le futur <br><span id="typed-text"></span><span class="cursor-blink">|</span></h1>
+            <p>Conception d'applications Android natives, d'outils éducatifs interactifs et d'interfaces web nouvelle génération.</p>
+            
+            <div class="hero-buttons">
+                <a href="#projets" class="btn-neon">🚀 Explorer nos créations</a>
+                <a href="#services" class="btn-glass">Nos compétences</a>
+            </div>
+
+            <!-- Compteurs de statistiques futuristes -->
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="7">0</span>
+                    <span class="stat-label">Thèmes Historiques</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="65">0</span>
+                    <span class="stat-label">Questions de Quiz</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span>
+                    <span class="stat-label">% Hors-Ligne</span>
+                </div>
+            </div>
+
+    </header>
+    <!-- SECTION PROJETS & CRÉATIONS -->
+    <section id="projets" class="section">
+        <div class="section-header">
+            <span class="cyber-badge">📦 PORTFOLIO</span>
+            <h2>Nos <span>Créations</span></h2>
+            <p>Découvrez nos applications mobiles et nos projets numériques conçus pour l'apprentissage et la performance.</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Carte vedette : Temps de France -->
+            <div class="glass-card featured-project">
+                <div class="project-badge-live">● DISPONIBLE</div>
+                <div class="project-header">
+                    <img src="images/icone-appli.png" alt="Icône Temps de France" class="project-icon" onerror="this.style.display='none'">
+                    <div>
+                        <h3>Temps de France</h3>
+                        <span class="project-tags">Android • Web PWA • Éducation</span>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    Application éducative complète et 100 % hors-ligne pour maîtriser l'Histoire de France : 7 grandes périodes, encyclopédie des dates clés (Brevet & Bac), archives sonores et Défi Chrono 60s.
+                </p>
+                <div class="project-links">
+                    <a href="https://itch.io" target="_blank" class="btn-neon small-btn">📱 Télécharger / Lancer</a>
+                    <a href="https://uptodown.com" target="_blank" class="btn-glass small-btn">🤖 Fiche Uptodown</a>
+                </div>
+            </div>
+
+                     <!-- Carte Projet 2 : GéoMonde Ultimate -->
+            <div class="glass-card featured-project">
+                <div class="project-badge-live">● NOUVEAU • DISPONIBLE</div>
+                <div class="project-header">
+                    <img src="images/logo-geomonde.svg" alt="Logo GéoMonde" class="project-icon">
+                    <div>
+                        <h3>GéoMonde Ultimate</h3>
+                        <span class="project-tags">Jeu Web • Atlas • 100 Pays</span>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    Jeu de géographie interactif : 100 pays, 3 modes de jeu (Drapeaux QCM, Défi Capitales, Rush Chrono 60s), système de combos, trophées et Atlas complet.
+                </p>
+                <div class="project-links">
+                    <a href="https://geomonde-zeyrox.netlify.app/" target="_blank" class="btn-neon small-btn">🎮 Jouer en ligne</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION SAVOIR-FAIRE / SERVICES -->
+    <section id="services" class="section">
+        <div class="section-header">
+            <span class="cyber-badge">🛠️ EXPERTISE</span>
+            <h2>Notre <span>Savoir-Faire</span></h2>
+            <p>Des solutions numériques modernes, rapides et adaptées à tous les écrans.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="glass-card service-card">
+                <div class="service-icon">📱</div>
+                <h3>Applications Android</h3>
+                <p>Développement d'applications natives fluides, utilisables hors-ligne et optimisées pour smartphones et tablettes.</p>
+            </div>
+            <div class="glass-card service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Sites Web Futuristes</h3>
+                <p>Création de sites vitrines et portfolios interactifs au design soigné, ultra-rapides et 100 % responsives.</p>
+            </div>
+            <div class="glass-card service-card">
+                <div class="service-icon">🎮</div>
+                <h3>Outils Interactifs</h3>
+                <p>Conception de systèmes de quiz, gamification, médailles et interfaces éducatives engageantes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT & PIED DE PAGE -->
+    <footer id="contact" class="footer-section">
+                     <div class="glass-card contact-box">
+            <h2>Un projet en tête ? <span>Contactez le studio</span></h2>
+            <p>Une question sur nos applications ou une idée de collaboration ? Écrivez-nous directement à :</p>
+            
+            <div style="margin: 20px 0; font-size: 1.2rem; font-weight: 800; color: var(--neon-cyan); letter-spacing: 0.5px;">
+                dylan.terrier30@gmail.com
+            </div>
+
+            <div class="hero-buttons">
+                <button type="button" id="copy-email-btn" onclick="copyStudioEmail()" class="btn-neon" style="border: none; cursor: pointer; font-size: 1rem;">
+                    📋 Copier l'adresse e-mail
+                </button>
+            </div>
+        </div>
+
+    </footer>
+
+       <!-- Modale pour agrandir les aperçus -->
+    <div id="preview-modal" class="modal-overlay" onclick="closePreview()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closePreview()">✕</button>
+            <h3 style="margin-bottom: 12px; color: var(--neon-cyan);">Aperçu — Temps de France</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">Interface mobile sombre, 7 périodes historiques, frise chronologique et mode révision Brevet/Bac.</p>
+            <img src="src="images/icone-appli.png" alt="Capture Temps de France" style="max-height: 65vh; border-radius: 12px; border: 1px solid var(--neon-cyan);" onerror="this.alt='Placez une capture écran nommée apercu-appli.png dans le dossier images/'">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
