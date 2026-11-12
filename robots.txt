@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://github.iozeyrox-dev30.github.io/sitedev/sitemap.xml
